@@ -14,12 +14,13 @@ The API implements full CRUD operations, robust request validation, comprehensiv
 - Swagger.
 ## API Endpoints:
 | HTTP Method | Endpoint         | Description |
-|------------|----------------|-------------|
-| GET        | /api/wines      | Get all wines |
-| GET        | /api/wines/{id} | Get a wine by ID |
-| POST       | /api/wines      | Add a new wine |
-| PUT        | /api/wines/{id} | Update a wine |
-| DELETE     | /api/wines/{id} | Delete a wine (secured by JWT) |
+|-------------|----------------|-------------|
+| POST        | /api/auth/login | Get JWT (username: "string", password: "string") |
+| GET         | /api/wines      | Get all wines |
+| GET         | /api/wines/{id} | Get a wine by ID |
+| POST        | /api/wines      | Add a new wine |
+| PUT         | /api/wines/{id} | Update a wine |
+| DELETE      | /api/wines/{id} | Delete a wine (secured by JWT) |
 ## Setup Instructions
 1. Clone the repository.
 2. Open the project in your preferred IDE (e.g., Visual Studio).
