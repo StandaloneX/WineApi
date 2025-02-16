@@ -1,0 +1,6 @@
+@WineApiHostAddress = http://localhost:5273
+
+GET {{WineApiHostAddress}}/wine_api/
+Accept: application/json
+
+###
